@@ -18,11 +18,8 @@ public class Question2Test {
 	public void listWithDuplicates() {
 		assertEquals(number,qns2.listWithDuplicates(number));
 	}
-/*	@SuppressWarnings("static-access")
-	@Test
-	public void removeDuplicateList() {
-		assertEquals(finalNumbers,qns2.removeDuplicateList(number));
-	}
-*/
 	
-}
+
+	}
+
+

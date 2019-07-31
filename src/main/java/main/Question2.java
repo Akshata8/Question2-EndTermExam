@@ -7,6 +7,7 @@ import java.util.Set;
 import java.util.TreeSet;
 
 public class Question2 {
+public static final String Arrays = null;
 public static void main(String[] args) {
 	List<Integer> numbers = new ArrayList<Integer>();
 	Scanner sc = new Scanner(System.in);
@@ -19,9 +20,11 @@ public static void main(String[] args) {
 	System.out.println(qns2.listWithDuplicates(numbers));
 
 }
-public List<Integer> listWithDuplicates(List<Integer> number){
-	List <Integer> L1 = null;
+public List<Integer> listWithDuplicates(List<Integer> numbers){
+	//List <Integer> listwithDuplicates = new ArrayList<Integer>();
 	//write your code here !! change the L1 to required value
-	return L1 ;
+	List <Integer> L1= new ArrayList<Integer>();
+L1.addAll(numbers);
+	return L1;
 }
 }
